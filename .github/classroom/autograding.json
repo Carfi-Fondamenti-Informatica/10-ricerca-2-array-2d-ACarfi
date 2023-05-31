@@ -16,9 +16,29 @@
       "run": "./main",
       "input": "Mirko Seddio-Anguissola\r\nRosalia Versace\r\nAmleto Montalti\r\nFabrizia Bernardi\r\nViridiana Anguissola\r\nMirko Seddio-Anguissola\r\n",
       "output": "trovato in posizione 0",
-      "comparison": "included",
+      "comparison": "exact",
       "timeout": 10,
-      "points": null
+      "points": 25
+    },
+    {
+      "name": "Ricerca 3",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "Rosa Gentileschi\r\nAntonina Infantino\r\nErmanno Lamborghini-Giacconi\r\nNinetta Piacentini\r\nMarina Taccola\r\nMarina Piacentini",
+      "output": "non trovato",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Ricerca 4",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "Antonina Farinelli\r\nAntonina Coppola\r\nVincenzo Odescalchi\r\nLicia Tozzi\r\nGioachino Anastasi\r\nAntonina Coppola\r\n",
+      "output": "trovato in posizione 1",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 25
     }
   ]
 }
