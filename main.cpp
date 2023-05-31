@@ -9,7 +9,7 @@ void init (char mat[], int n){
 void init(char mat[5][15]){
     for(int i=0;i<5;i++){
         init(mat[i],15);
-    }
+    } 
 }
 
 void stampa(char n[5][15], char c[5][15]){
