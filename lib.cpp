@@ -1,4 +1,7 @@
+#include <iostream>
 #include "lib.h"
+
+using namespace std;
 
 void init (char mat[], int n){
     for(int i=0;i<n;i++){
