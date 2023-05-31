@@ -9,6 +9,16 @@
       "comparison": "exact",
       "timeout": 10,
       "points": 25
+    },
+    {
+      "name": "Ricerca 2",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "Mirko Seddio-Anguissola\r\nRosalia Versace\r\nAmleto Montalti\r\nFabrizia Bernardi\r\nViridiana Anguissola\r\nMirko Seddio-Anguissola\r\n",
+      "output": "trovato in posizione 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
     }
   ]
 }
