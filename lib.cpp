@@ -1,3 +1,5 @@
+#include "lib.h"
+
 void init (char mat[], int n){
     for(int i=0;i<n;i++){
         mat[i]= ' ';
