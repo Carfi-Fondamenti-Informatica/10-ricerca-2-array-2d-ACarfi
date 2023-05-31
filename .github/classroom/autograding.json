@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Ricerca 1",
+      "setup": "g++ main.cpp lib.cpp -o main",
+      "run": "./main",
+      "input": "Romina Micca\r\nPaulina Righi\r\nSimone Salvemini\r\nErika Verdi\r\nLiana Camiscione\r\nLiana Camiscione",
+      "output": "trovato in posizione 4",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
